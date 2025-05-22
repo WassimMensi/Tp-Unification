@@ -225,3 +225,8 @@ Explorez KQL (Kibana Query Language)
 Ajoutez d’autres sources de logs (DB, pare-feu…)
 
 Mettez en place des alertes, rôles utilisateurs, et dashboard en production
+
+## Etape 3 : Comparaison des principales différences avec correction
+
+Diff 1 : Nous avons bypassé l'étape logstash.  
+Diff 2 : Ce qu'on a fait dans le pipeline de logstash (unified-log) à été fait directement dans le docker-compose dans la correction.  
